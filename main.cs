@@ -19,8 +19,8 @@ class Program
         width = Convert.ToDouble(Console.ReadLine());
         Console.Write("height: ");
         height = Convert.ToDouble(Console.ReadLine());
-        area = ( length * width * height ) / 3;
-            
+        area = (length * width * height) / 3;
+    
         Console.WriteLine("");
         Console.WriteLine("Area: " + area.ToString("0.00") + "cm²");
 
